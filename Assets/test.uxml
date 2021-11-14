@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/test.uss?fileID=7433441132597879392&amp;guid=f13c0c8ad8d51204780571a9505cb4e1&amp;type=3#test" />
+    <ui:VisualElement style="align-items: flex-start; justify-content: flex-start; flex-grow: 1; flex-direction: row; flex-wrap: wrap;">
+        <ui:VisualElement name="ProgressContainer" class="container">
+            <ui:Label text="Progress" display-tooltip-when-elided="true" name="progressHeader" class="header" />
+            <ui:ProgressBar title="my-progress" name="progressBar" />
+        </ui:VisualElement>
+        <ui:VisualElement name="buttonContainer" class="container">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="buttonHeader" class="header" />
+            <ui:Button text="Submit" display-tooltip-when-elided="true" name="submitButton" />
+            <ui:Toggle label="Toggle" value="false" class="toggle" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
